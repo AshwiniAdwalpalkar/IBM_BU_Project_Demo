@@ -1,3 +1,22 @@
+# from dash import html,dcc
+# def create_signup_component():
+#     return html.Div(style={'display': 'flex', 'justify-content': 'center', 'align-items': 'center', 'height': '100vh'},
+#         children=[
+#             html.Div(
+#                 style={'text-align': 'center', 'border': '1px solid black', 'padding': '50px'},
+#                 children=[
+#         html.Div("Username", style={'margin-bottom': '5px'}),
+#         dcc.Input(id='signup-username', type='text', placeholder='Username'),
+#         html.Div("Password", style={'margin-top': '10px', 'margin-bottom': '5px'}),
+#         dcc.Input(id='signup-password', type='password', placeholder='Password'),
+#         html.Div("Email", style={'margin-bottom': '5px'}),
+#         dcc.Input(id='signup-email', type='email', placeholder='Email'),
+#         html.Div(html.Button('Submit', id='signup-button', n_clicks=0)),
+#         html.Div(id='signup-output'),
+#         html.Div("Alrady have an Account?", style={'margin-top': '10px'}),
+#         html.A('Sign In', href='/signin', style={'margin-left': '5px', 'color': 'blue'})
+#     ])])
+
 from dash import html, dcc
 import dash_player as dp
 
